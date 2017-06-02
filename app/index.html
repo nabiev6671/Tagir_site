@@ -1,23 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head lang="ru-RU">
     <meta charset="utf-8">
-    <title>Название сайта</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Спецоборудование TRK-GROUP</title>
+    <meta name="description" content="Спецоборудование в Уфе">
+    <meta name="keywords" content="спецоборудование, Уфа, trk-group">
+    <meta name="author" content="Nabiev Rustam">
     <link rel="stylesheet" href="./bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
-    <head>
-      <p>Содержание</p>
-    </head>
-    <div class="container">
-      <h1>Заголовок</h1>
-      <p>Пример текста документа</p>
+    <div class="main-wrap">
+      <header class="main-header">
+        <nav class="main-nav">
+          <ul class="main-nav_list-wrap clearfix">
+            <li class="main-nav_list first-nav_list"><a href="./about_company/company.html" class="main-nav_link">О КОМПАНИИ</a></li>
+            <li class="main-nav_list"><a href="#" class="main-nav_link">КАТАЛОГ</a></li>
+            <li class="main-nav_list"><a href="#" class="main-nav_link">НАПРАВЛЕНИЕ</a></li>
+            <li class="main-nav_list"><a href="#" class="main-nav_link">ПРОЕКТЫ</a></li>
+            <li class="main-nav_list last-nav_list"><a href="#" class="main-nav_link">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+        <div class="contacts clearfix">
+          <ul class="contacts_list-wrap">
+            <li class="contacts-list"><img src="./img/phone-call.png" alt="phone" class="contacts-img"><a href="tel:+79174010675" class="contacts-list_link">+7 (917) 401-06-75</a></li>
+            <li class="contacts-list"><img src="./img/envelope.png" alt="envelope" class="contacts-img"><a href="mailto:rk-group@mail.ru" class="contacts-list_link">rk-group@mail.ru</a></li>
+          </ul>
+          <ul class="social-wrap clearfix">
+            <li class="social-list"> <a href="#" class="social-link"><img src="./img/social/vk.png" alt="VK" class="social-img"></a></li>
+            <li class="social-list"><a href="#" class="social-link"><img src="./img/social/instagram.png" alt="Instagram" class="social-img"></a></li>
+            <li class="social-list"><a href="#" class="social-link"><img src="./img/social/whatsapp.png" alt="WatsApp" class="social-img"></a></li>
+          </ul>
+        </div>
+        <div class="logo-wrap">
+          <img src="./img/logo.png" alt="Логотип" class="logo-img">
+        </div>
+      </header>
+      <div class="content">
+        <div class="description">
+          <p class="description-text">
+            Поставка оборудования, материалов и запасных частей для нефтяной, газовой и строительно-монтажной области
+          </p>
+        </div>
+        <div class="partners">
+          <h2 class="partners-caption">Наши партнеры</h2>
+          <div class="partners-slider">
+            <div class="partners-slider_view">
+              <ul class="partners-slider_img-container clearfix">
+                <li class="partners-slider_img-list">
+                  <img src="./img/partner-1.jpg" alt="Логотип Партнера" class="partners-slider_img">
+                </li>
+                <li class="partners-slider_img-list">
+                  <img src="./img/partner-2.jpg" alt="Логотип Партнера" class="partners-slider_img">
+                </li>
+                <li class="partners-slider_img-list">
+                  <img src="./img/partner-3.jpg" alt="Логотип Партнера" class="partners-slider_img">
+                </li>
+                <li class="partners-slider_img-list">
+                  <img src="./img/partner-4.jpg" alt="Логотип Партнера" class="partners-slider_img">
+                </li>
+                <li class="partners-slider_img-list">
+                  <img src="./img/partner-5.jpg" alt="Логотип Партнера" class="partners-slider_img">
+                </li>
+                <li class="partners-slider_img-list">
+                  <img src="./img/partner-6.jpg" alt="Логотип Партнера" class="partners-slider_img">
+                </li>
+                <li class="partners-slider_img-list">
+                  <img src="./img/partner-7.jpg" alt="Логотип Партнера" class="partners-slider_img">
+                </li>
+                <li class="partners-slider_img-list">
+                  <img src="./img/partner-8.jpg" alt="Логотип Партнера" class="partners-slider_img">
+                </li>
+                <li class="partners-slider_img-list">
+                  <img src="./img/pelco-partner.jpg" alt="Логотип Партнера" class="partners-slider_img">
+                </li>
+                <li class="partners-slider_img-list">
+                  <img src="./img/pzmkp-partner.jpg" alt="Логотип Партнера" class="partners-slider_img">
+                </li>
+                <li class="partners-slider_img-list">
+                  <img src="./img/spek-partner.jpg" alt="Логотип Партнера"  class="partners-slider_img">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer">
+
+      </footer>
     </div>
-    <footer>
-      <p>Место copyright</p>
-    </footer>
-    <script src="./bower/jquery/src/jquery.js"></script>
+    <script src="./bower/jquery/dist/jquery.js"></script>
+    <script src="./js/slider.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

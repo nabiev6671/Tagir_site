@@ -14,7 +14,16 @@ gulp.task('watch', function () {
   gulp.watch([
     'app/*.html',
     'app/js/**/*.js',
-    'app/css/**/*.css'
+    'app/css/**/*.css',
+    'app/about_company/*.html',
+    'app/about_company/css/**/*.css',
+    'app/about_company/js/**/*.js',
+    'app/catalog/*.html',
+    'app/catalog/css/**/*.css',
+    'app/catalog/js/**/*.js',
+    'app/direction/*.html',
+    'app/direction/css/**/*.css',
+    'app/direction/js/**/*.js'
   ]).on('change', browserSync.reload);
 });
 
