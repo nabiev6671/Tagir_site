@@ -1,3 +1,6 @@
 $(document).ready(function () {
-  partnerSlider.init();
+  if ($("div").is(".partners")) {
+    partnerSlider.init();
+  }
+  catalogDropdown.init();
 });
