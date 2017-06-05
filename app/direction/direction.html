@@ -18,10 +18,22 @@
         <nav class="main-nav">
           <ul class="main-nav_list-wrap clearfix">
             <li class="main-nav_list first-nav_list"><a href="./../about_company/company.html" class="main-nav_link">О КОМПАНИИ</a></li>
-            <li class="main-nav_list"><a href="./../catalog/catalog.html" class="main-nav_link">КАТАЛОГ</a></li>
+            <li class="main-nav_list"><a href="./../catalog/catalog.html" class="main-nav_link">КАТАЛОГ</a>
+              <div class="catalog-dropdown">
+                <ul class="catalog-dropdown_wrap">
+                  <li class="catalog-dropdown_list"><a href="" class="catalog-dropdown_link">Лоток кабельный металлический</a></li>
+                  <li class="catalog-dropdown_list"><a href="" class="catalog-dropdown_link">Кабель силовой</a></li>
+                  <li class="catalog-dropdown_list"><a href="" class="catalog-dropdown_link">Взрывозащищенное электрооборудование и светильники</a></li>
+                  <li class="catalog-dropdown_list"><a href="" class="catalog-dropdown_link">Шкафы и корпуса</a></li>
+                  <li class="catalog-dropdown_list"><a href="" class="catalog-dropdown_link">Светильники люминесцентные и светодиодные</a></li>
+                  <li class="catalog-dropdown_list"><a href="" class="catalog-dropdown_link">Электрохимическая защита</a></li>
+                  <li class="catalog-dropdown_list"><a href="" class="catalog-dropdown_link">Комплексные системы безопасности</a></li>
+                  <li class="catalog-dropdown_list"><a href="" class="catalog-dropdown_link">Телекоммуникационного оборудования</a></li>
+               </ul>
+              </div></li>
             <li class="main-nav_list"><a href="#" class="main-nav_link active-nav">НАПРАВЛЕНИЕ</a></li>
-            <li class="main-nav_list"><a href="#" class="main-nav_link">ПРОЕКТЫ</a></li>
-            <li class="main-nav_list last-nav_list"><a href="#" class="main-nav_link">КОНТАКТЫ</a></li>
+            <li class="main-nav_list"><a href="./../project/project.html" class="main-nav_link">ПРОЕКТЫ</a></li>
+            <li class="main-nav_list last-nav_list"><a href="./../contacts/contacts.html" class="main-nav_link">КОНТАКТЫ</a></li>
           </ul>
         </nav>
         <div class="contacts clearfix">
@@ -30,13 +42,16 @@
             <li class="contacts-list"><img src="./../img/envelope.png" alt="envelope" class="contacts-img"><a href="mailto:rk-group@mail.ru" class="contacts-list_link">rk-group@mail.ru</a></li>
           </ul>
           <ul class="social-wrap clearfix">
-            <li class="social-list"> <a href="#" class="social-link"><img src="./../img/social/vk.png" alt="VK" class="social-img"></a></li>
-            <li class="social-list"><a href="#" class="social-link"><img src="./../img/social/instagram.png" alt="Instagram" class="social-img"></a></li>
-            <li class="social-list"><a href="#" class="social-link"><img src="./../img/social/whatsapp.png" alt="WatsApp" class="social-img"></a></li>
+            <li class="social-list"> <a href="https://vk.com/oootrkgroup" class="social-link"><img src="./../img/social/vk.png" alt="VK" class="social-img"></a></li>
+            <li class="social-list"><a href="https://www.instagram.com/oootrkgroup/" class="social-link"><img src="./../img/social/instagram.png" alt="Instagram" class="social-img"></a></li>
+            <li class="social-list"><a href="https://www.facebook.com/oootrkgroupufa" class="social-link"><img src="./../img/social/whatsapp.png" alt="WatsApp" class="social-img"></a></li>
+            <li class="social-list"> <a href="https://twitter.com/oootrkgroup" class="social-link"><img src="./../img/social/twitter.png" alt="twitter" class="social-img"></a></li>
           </ul>
         </div>
         <div class="logo-wrap">
-          <img src="./../img/logo.png" alt="Логотип" class="logo-img">
+          <a href="./../index.html" class="logo-link">
+            <img src="./../img/logo.png" alt="Логотип" class="logo-img">
+          </a>
         </div>
       </header>
       <div class="content">
@@ -58,9 +73,12 @@
           </div>
         </div>
       </div>
-      <footer class="main-footer">
-      </footer>
     </div>
+    <footer class="main-footer">
+    </footer>
     <script src="./../bower/jquery/dist/jquery.js"></script>
+    <script src="./../js/catalog_dropdown.js"></script>
+    <script src="./../js/main.js"></script>
+
   </body>
 </html>

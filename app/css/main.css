@@ -1,18 +1,21 @@
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
 body {
-  background-image: url("./../img/background_image.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .main-wrap {
   background-color: #ffffff;
-  width: 960px;
+  width: cover;
   margin: 0 auto;
-  margin-top: 85px;
   font-family: MyriadProRegular;
 }
 .main-nav {
@@ -37,7 +40,7 @@ body {
   font-size: 1.6em;
   height: 100%;
   width: 100%;
-  padding-top: 8%;
+  padding-top: 5%;
   box-sizing: border-box;
   color: black;
   text-decoration: none;
@@ -129,7 +132,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 .social-wrap {
   display: inline-block;
@@ -153,7 +156,6 @@ body {
 .active-nav {
   border-bottom: none;
   border-right: none;
-  padding-top: 9%;
   color:  #3f3f3f;
 }
 .catalog-dropdown {
@@ -171,4 +173,20 @@ body {
 }
 .catalog-dropdown_list {
   margin: 5% 0;
+}
+html, body, .main-wrap {
+  height: 100%;
+}
+body > .main-wrap {
+  height: auto;
+  min-height: 100%;
+}
+.main-wrap {
+  padding-bottom: 83px;
+}
+.main-footer {
+  position: relative;
+	margin-top: -83px; /* отрицательное значение высоты футера */
+	height: 83px;
+	clear:both;
 }

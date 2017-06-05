@@ -23,7 +23,13 @@ gulp.task('watch', function () {
     'app/catalog/js/**/*.js',
     'app/direction/*.html',
     'app/direction/css/**/*.css',
-    'app/direction/js/**/*.js'
+    'app/direction/js/**/*.js',
+    'app/project/*.html',
+    'app/project/css/**/*.css',
+    'app/project/js/**/*.js',
+    'app/contacts/*.html',
+    'app/contacts/css/**/*.css',
+    'app/contacts/js/**/*.js'
   ]).on('change', browserSync.reload);
 });
 
