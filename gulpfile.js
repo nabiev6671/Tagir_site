@@ -29,7 +29,31 @@ gulp.task('watch', function () {
     'app/project/js/**/*.js',
     'app/contacts/*.html',
     'app/contacts/css/**/*.css',
-    'app/contacts/js/**/*.js'
+    'app/contacts/js/**/*.js',
+    'app/catalog/catalog_list/cable_tray_metal/*.html',
+    'app/catalog/catalog_list/cable_tray_metal/css/**/*.css',
+    'app/catalog/catalog_list/cable_tray_metal/js/**/*.js',
+    'app/catalog/catalog_list/boxes_and_cases/*.html',
+    'app/catalog/catalog_list/boxes_and_cases/css/**/*.css',
+    'app/catalog/catalog_list/boxes_and_cases/js/**/*.js',
+    'app/catalog/catalog_list/electrochemical_protection/*.html',
+    'app/catalog/catalog_list/electrochemical_protection/css/**/*.css',
+    'app/catalog/catalog_list/electrochemical_protection/js/**/*.js',
+    'app/catalog/catalog_list/explosion-proof_electrical/*.html',
+    'app/catalog/catalog_list/explosion-proof_electrical/css/**/*.css',
+    'app/catalog/catalog_list/explosion-proof_electrical/js/**/*.js',
+    'app/catalog/catalog_list/integrated_security_systems/*.html',
+    'app/catalog/catalog_list/integrated_security_systems/css/**/*.css',
+    'app/catalog/catalog_list/integrated_security_systems/js/**/*.js',
+    'app/catalog/catalog_list/lamps_fluorescent_and_led/*.html',
+    'app/catalog/catalog_list/lamps_fluorescent_and_led/css/**/*.css',
+    'app/catalog/catalog_list/lamps_fluorescent_and_led/js/**/*.js',
+    'app/catalog/catalog_list/power_cable/*.html',
+    'app/catalog/catalog_list/power_cable/css/**/*.css',
+    'app/catalog/catalog_list/power_cable/js/**/*.js',
+    'app/catalog/catalog_list/telecommunication_equipment/*.html',
+    'app/catalog/catalog_list/telecommunication_equipment/css/**/*.css',
+    'app/catalog/catalog_list/telecommunication_equipment/js/**/*.js'
   ]).on('change', browserSync.reload);
 });
 
