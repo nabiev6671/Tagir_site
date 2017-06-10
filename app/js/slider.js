@@ -24,7 +24,6 @@ var partnerSlider = (function () {
       sliderSpeed = 50000; // скорость перемещения слайдера
 
   var _sliderPosChange = function (dir) {
-    console.log('imgConteinerWidth = ' + imgConteinerWidth);
     if (dir === 'left') {
       imgConteiner.animate({
         left: - allImgListWidth + imgListWidth

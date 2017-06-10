@@ -1,6 +1,6 @@
 .description-company_text {
   text-align: center;
-  font-size: 2.4em;
+  font-size: 2.7em;
 }
 .wrap-red-border {
   border-left: 10px solid #E61E51;
@@ -11,4 +11,7 @@
   border-right: 10px solid black;
   padding: 5px 4%;
   box-sizing: border-box;
+}
+.contentabout-company_text {
+  font-size: 1.2em;
 }

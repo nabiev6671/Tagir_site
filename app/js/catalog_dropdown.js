@@ -22,7 +22,7 @@ var catalogDropdown = (function () {
   catalog.css({
     "left" : posLeft + "px",
     "top" : posTop + "px",
-    "width" : paretnWidth + "px"
+    "width" : paretnWidth * 2.5 + "px"
   });
 
   var hoverIn = function () {
