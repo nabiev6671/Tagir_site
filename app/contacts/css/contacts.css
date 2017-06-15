@@ -38,3 +38,7 @@
   list-style: none;
   padding-left: 33%;
 }
+.map {
+  width: 500px;
+  margin: 5% auto 0 auto;
+}
