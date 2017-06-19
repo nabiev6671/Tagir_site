@@ -39,12 +39,9 @@
   padding-left: 33%;
 }
 .map {
-  width: 500px;
-  margin: 0 5% 0 0;
-  float: right;
+  margin-top: 5%;
 }
 .contacts_content {
   display: inline-block;
   width: 46%;
-  float: left;
 }
