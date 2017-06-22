@@ -34,3 +34,27 @@
   padding: 5px 4%;
   box-sizing: border-box;
 }
+.content-catalog {
+
+}
+.catalog-box {
+  list-style: none;
+  padding: 0 2%;
+}
+.catalog-list {
+  width: 50%;
+  float: left;
+  margin-top: 1%;
+}
+.catalog-list-img {
+  width: 13%;
+  float: left;
+  margin-right: 4%;
+}
+.catalog-link_txt {
+
+}
+.catalog-link {
+  color: black;
+  font-size: 1.3em;
+}

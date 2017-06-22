@@ -133,6 +133,8 @@ body {
   background-repeat: no-repeat;
   margin-top: 100px;
   margin-bottom: 0px;
+	text-align: center;
+	color: white;
 }
 .social-wrap {
   display: inline-block;
@@ -228,4 +230,14 @@ body > .main-wrap {
 }
 .big-slider_img {
 	width: 100%;
+}
+.catalig-list_img {
+	width: 100%;
+}
+.copywriting {
+ position: absolute;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ top: 0;
 }
